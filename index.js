@@ -13,17 +13,22 @@ const client = new line.Client(config);
 const app = express();
 
 app.post('/callback', line.middleware(config), (req, res) => {
-  if (err instanceof line.SignatureValidationFailed) {
-    res.status(401).send(err.signature);
-  }
-
-  if (err instanceof line.JSONParseError) {
-    res.status(400).send(err.raw);
-  }
-
   console.log(req.body.events);
-  
   res.json(req.body.events);
+});
+
+app.use((err, req, res, next) => {
+  if (err instanceof SignatureValidationFailed) {
+    res.status(401).send(err.signature);
+    return;
+  } 
+  
+  if (err instanceof JSONParseError) {
+    res.status(400).send(err.raw);
+    return;
+  }
+
+  next(err);
 });
 
 // event handler
