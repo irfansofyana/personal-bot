@@ -50,14 +50,13 @@ async function handleEvent(event) {
   let type = 'text';
 
   if (event.message.text == '/headlines'){
-    let answer = '';
+    let answer = 'Headline News for Indonesia:\n\n';
     const res = await services.newsapi({
       'country': 'ID'
     });
 
     res.forEach((news) => {
-      const cvt = news.title + '\n' + news.url + '\n';
-      console.log(answer);
+      const cvt = news.title + '\n' + news.url + '\n\n';
       answer += cvt;
     });
 
