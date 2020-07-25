@@ -3,6 +3,7 @@
 const line = require('@line/bot-sdk');
 const express = require('express');
 const cfg = require('./config');
+const services = require('./services');
 
 const config = {
   channelAccessToken: cfg.CHANNEL_ACCESS_TOKEN,
@@ -35,11 +36,32 @@ app.use((err, req, res, next) => {
 });
 
 // event handler
-function handleEvent(event) {
+async function handleEvent(event) {
   if (event.type !== 'message' || event.message.type !== 'text') {
     return Promise.resolve(null);
   }
-  const echo = { type: 'text', text: event.message.text };
+
+  let echo = {};
+  let text = event.message.text;
+  let type = 'text';
+
+  if (event.message.text == '/headlines'){
+    let answer = '';
+    const res = await services.newsapi({
+      'country': 'ID'
+    });
+
+    res.forEach((news) => {
+      answer.concat(news.title + '\n' + news.url + '\n');
+    })
+
+    text = answer;
+  }
+
+  echo = {
+    type: type,
+    text: text
+  };
 
   return client.replyMessage(event.replyToken, echo);
 }
