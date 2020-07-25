@@ -22,7 +22,7 @@ app.post('/personal-bot/callback', line.middleware(cfg), (req, res) => {
         });
 });
 
-app.get('/personal-bot/testserver', (req, res) => {
+app.get('/personal-bot', (req, res) => {
     res.send('The server works!');
 });
 
