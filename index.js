@@ -12,8 +12,21 @@ const config = {
 const client = new line.Client(config);
 const app = express();
 
+app.use((err, req, res, next) => {
+  if (err instanceof line.SignatureValidationFailed) {
+    res.status(401).send(err.signature)
+   
+    return;
+  } else if (err instanceof line.JSONParseError) {
+    res.status(400).send(err.raw)
+    return;
+  }
+
+  next(err);
+});
+
 app.post('/callback', line.middleware(config), (req, res) => {
-  res.json('success');
+  res.json(req.body.events);
 });
 
 // event handler
