@@ -283,3 +283,971 @@ Error: Cannot find module '@line/bot-sdk'
     at Module.load (internal/modules/cjs/loader.js:653:32)
     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12
+            throw new Error("no channel access token");
+            ^
+
+Error: no channel access token
+    at new Client (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/client.js:12:19)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:12:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:5)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module '@line/bot-sdk'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/irfansof/personal-bot/index.js:1:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+ReferenceError: client is not defined
+    at handleEvent (/home/irfansof/personal-bot/src/index.js:10:3)
+    at Array.map (<anonymous>)
+    at app.post (/home/irfansof/personal-bot/index.js:17:30)
+    at Layer.handle [as handle_request] (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/express/lib/router/route.js:137:13)
+    at _middleware (/home/irfansof/nodevenv/personal-bot/10/lib/node_modules/@line/bot-sdk/dist/middleware.js:43:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
