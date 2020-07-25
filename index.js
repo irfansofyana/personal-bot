@@ -12,7 +12,7 @@ const cfg = {
 const client = new line.Client(cfg);
 const app = express();
 
-app.post('/personal-bot/callback', line.middleware(cfg), (req, res) => {
+app.post('/personalbot/callback', line.middleware(cfg), (req, res) => {
     Promise
         .all(req.body.events.map(src.handleEvent))
         .then((result) => res.json(result))
@@ -22,7 +22,7 @@ app.post('/personal-bot/callback', line.middleware(cfg), (req, res) => {
         });
 });
 
-app.get('/personal-bot', (req, res) => {
+app.get('/personalbot', (req, res) => {
     res.send('The server works!');
 });
 
