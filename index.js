@@ -9,11 +9,12 @@ const cfg = {
     channelSecret: config.CHANNEL_SECRET
 };
 
+const client = new line.Client(cfg);  
 const app = express();
 
 app.post('/bot/callback', line.middleware(cfg), (req, res) => {
     Promise
-        .all(req.body.events.map(src.handleEvent))
+        .all(req.body.events.map(handleEvent))
         .then((result) => res.json(result))
         .catch((err) => {
             console.error(err);
@@ -28,6 +29,18 @@ app.get('/bot', (req, res) => {
 app.get('/bot/test', (req, res) => {
     res.send('The server works!');
 });
+
+function handleEvent(event) {
+    if (event.type !== 'message' || event.message.type !== 'text') {
+        return Promise.resolve(null);
+    }
+
+    // create a echoing text message
+    const echo = { type: 'text', text: event.message.text };
+
+    // use reply API
+    return client.replyMessage(event.replyToken, echo);
+}
 
 app.listen(config.PORT, () => {
     console.log(`Listening to port: ${config.PORT}`);
