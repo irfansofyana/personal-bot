@@ -12,6 +12,10 @@ const config = {
 const client = new line.Client(config);
 const app = express();
 
+app.get('/', (req, res) => {
+  res.send('The server is working!');
+});
+
 app.post('/callback', line.middleware(config), (req, res) => {
   Promise.all(req.body.events.map(handleEvent)).then(result => res.json(result));
 });
