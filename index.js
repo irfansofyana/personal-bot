@@ -9,7 +9,7 @@ const cfg = {
 };
 const client = new line.Client(cfg);  
 
-app.post('/bot/callback', line.middleware(cfg), (req, res) => {
+app.post('/callback', line.middleware(cfg), (req, res) => {
     Promise
         .all(req.body.events.map(handleEvent))
         .then((result) => res.json(result))
@@ -19,11 +19,11 @@ app.post('/bot/callback', line.middleware(cfg), (req, res) => {
         });
 });
 
-app.get('/bot', (req, res) => {
+app.get('/callback', (req, res) => {
     res.send('The server works!');
 });
 
-app.get('/bot/test', (req, res) => {
+app.get('/callback/test', (req, res) => {
     res.send(`channelAccessToken: ${config.CHANNEL_ACCESS_TOKEN}\n channelSecret: ${config.CHANNEL_SECRET}\n port: ${config.PORT}`);
 });
 
