@@ -22,9 +22,13 @@ app.post('/callback', line.middleware(cfg), (req, res) => {
         });
 });
 
-app.get('/test', (req, res) => {
+app.get('/testserver', (req, res) => {
     res.send('The server works!');
-})
+});
+
+app.get('/jancuk', (req, res) => {
+    res.send('The server works!');
+});
 
 app.listen(config.PORT, () => {
     console.log(`Listening to port: ${config.PORT}`);
