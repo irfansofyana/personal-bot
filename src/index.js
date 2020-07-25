@@ -1,3 +1,11 @@
+const config = require('../config');
+
+const cfg = {
+  channelAccessToken: config.CHANNEL_ACCESS_TOKEN,
+  channelSecret: config.CHANNEL_SECRET
+};
+const client = new line.Client(cfg);
+
 function handleEvent(event) {
   if (event.type !== 'message' || event.message.type !== 'text') {
     return Promise.resolve(null);

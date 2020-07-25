@@ -9,7 +9,6 @@ const cfg = {
     channelSecret: config.CHANNEL_SECRET
 };
 
-const client = new line.Client(cfg);
 const app = express();
 
 app.post('/bot/callback', line.middleware(cfg), (req, res) => {
