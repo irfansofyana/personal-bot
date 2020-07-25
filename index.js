@@ -55,6 +55,7 @@ async function handleEvent(event) {
       answer.concat(news.title + '\n' + news.url + '\n');
     })
 
+    console.log(text);
     text = answer;
   }
 
