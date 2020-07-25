@@ -12,7 +12,7 @@ const getHeadlines = async (opt) =>{
         });
         
         let ret = [];
-        for (let i = 0; i < Math.min(response.data.totalResults, 10); i++){
+        for (let i = 0; i < Math.min(response.data.totalResults, config.MAX_AMOUNT_NEWS); i++){
             const {title, url, ...rest} = response.data.articles[i];
             ret.push({title, url});
         }
