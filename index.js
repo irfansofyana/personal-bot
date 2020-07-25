@@ -13,6 +13,16 @@ const client = new line.Client(config);
 const app = express();
 
 app.post('/callback', line.middleware(config), (req, res) => {
+  if (err instanceof line.SignatureValidationFailed) {
+    res.status(401).send(err.signature);
+  }
+
+  if (err instanceof line.JSONParseError) {
+    res.status(400).send(err.raw);
+  }
+
+  console.log(req.body.events);
+  
   res.json(req.body.events);
 });
 
@@ -29,7 +39,6 @@ function handleEvent(event) {
   // use reply API
   return client.replyMessage(event.replyToken, echo);
 }
-
 
 app.listen(cfg.PORT, () => {
   console.log(`listening on ${cfg.PORT}`);
