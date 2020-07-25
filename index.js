@@ -17,8 +17,12 @@ app.get('/', (req, res) => {
   res.send('The server is working!');
 });
 
-app.post('/callback', line.middleware(config), (req, res) => {
-  Promise.all(req.body.events.map(handleEvent)).then(result => res.json(result));
+app.post('/callback', line.middleware(config), async (req, res) => {
+  Promise.all(
+    req.body.events.map(handleEvent)
+  ).then(
+    result => res.json(result)
+  );
 });
 
 app.use((err, req, res, next) => {
@@ -68,6 +72,10 @@ async function handleEvent(event) {
   return client.replyMessage(event.replyToken, echo);
 }
 
-app.listen(cfg.PORT, () => {
+app.listen(cfg.PORT, async () => {
   console.log(`listening on ${cfg.PORT}`);
+  // const res = await services.newsapi({
+  //   'country': 'ID'
+  // });
+  // console.log(res);
 });
