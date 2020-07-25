@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
   res.send('The server is working!');
 });
 
-app.post('/callback', line.middleware(config), async (req, res) => {
+app.post('/callback', line.middleware(config), (req, res) => {
   Promise.all(
     req.body.events.map(handleEvent)
   ).then(
@@ -55,14 +55,11 @@ async function handleEvent(event) {
       'country': 'ID'
     });
 
-    console.log(res);
-    
     res.forEach((news) => {
       const cvt = news.title + '\n' + news.url + '\n';
       answer = (answer ? cvt : answer.concat(cvt));
     })
 
-    console.log(text);
     text = answer;
   }
 
@@ -74,10 +71,6 @@ async function handleEvent(event) {
   return client.replyMessage(event.replyToken, echo);
 }
 
-app.listen(cfg.PORT, async () => {
+app.listen(cfg.PORT, () => {
   console.log(`listening on ${cfg.PORT}`);
-  // const res = await services.newsapi({
-  //   'country': 'ID'
-  // });
-  // console.log(res);
 });
