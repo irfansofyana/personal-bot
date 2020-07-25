@@ -55,6 +55,8 @@ async function handleEvent(event) {
       'country': 'ID'
     });
 
+    console.log(res);
+    
     res.forEach((news) => {
       const cvt = news.title + '\n' + news.url + '\n';
       answer = (answer ? cvt : answer.concat(cvt));
