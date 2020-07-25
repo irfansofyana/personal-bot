@@ -20,6 +20,10 @@ app.post('/callback', line.middleware(cfg), (req, res) => {
         });
 });
 
+app.get('/test', (req, res) => {
+    res.send('The server works!');
+})
+
 function handleEvent(event) {
     if (event.type !== 'message' || event.message.type !== 'text') {
       return Promise.resolve(null);
