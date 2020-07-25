@@ -24,7 +24,7 @@ app.get('/bot', (req, res) => {
 });
 
 app.get('/bot/test', (req, res) => {
-    res.send('The server works!');
+    res.send(`channelAccessToken: ${config.CHANNEL_ACCESS_TOKEN}\n channelSecret: ${config.CHANNEL_SECRET}\n port: ${config.PORT}`);
 });
 
 function handleEvent(event) {
