@@ -53,7 +53,7 @@ async function handleEvent(event) {
 
     res.forEach((news) => {
       const cvt = news.title + '\n' + news.url + '\n';
-      answer = (answer === '' ? cvt : answer.concat(cvt));
+      answer = (answer ? cvt : answer.concat(cvt));
     })
 
     console.log(text);
