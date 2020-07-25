@@ -4,13 +4,13 @@ const express = require('express');
 const config = require('./config');
 const src = require('./src');
 
+const client = new line.Client(cfg);  
+const app = express();
+
 const cfg = {
     channelAccessToken: config.CHANNEL_ACCESS_TOKEN,
     channelSecret: config.CHANNEL_SECRET
 };
-
-const client = new line.Client(cfg);  
-const app = express();
 
 app.post('/bot/callback', line.middleware(cfg), (req, res) => {
     Promise
