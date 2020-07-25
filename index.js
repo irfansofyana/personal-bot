@@ -52,7 +52,8 @@ async function handleEvent(event) {
     });
 
     res.forEach((news) => {
-      answer.concat(news.title + '\n' + news.url + '\n');
+      const cvt = news.title + '\n' + news.url + '\n';
+      answer = (answer === '' ? cvt : answer.concat(cvt));
     })
 
     console.log(text);
