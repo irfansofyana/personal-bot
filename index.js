@@ -65,70 +65,69 @@ async function handleEvent(event) {
     let newsContent = [];
     res.forEach((news, i) => {
       let content = {
-        "type": "box",
-        "layout": "horizontal",
-        "contents": [
+        'type': 'box',
+        'layout': 'horizontal',
+        'contents': [
           {
-            "type": "text",
-            "text": news.title,
-            "wrap": true
+            'type': 'text',
+            'text': news.title,
+            'wrap': true
           },
           {
-            "type": "separator"
+            'type': 'separator'
           },
           {
-            "type": "button",
-            "style": "link",
-            "actions": {
-              "type": "uri",
-              "label": "Visit Link",
-              "uri": news.url
+            'type': 'button',
+            'style': 'link',
+            'actions': {
+              'type': 'uri',
+              'label': 'Visit Link',
+              'uri': news.url
             }
           }
         ]
       };
-      if (i != news.length - 1){
-        content = {
-          ...content,
-          "type": "separator"
-        };
-      }
       newsContent.push(content);
+      if (i != news.length - 1) {
+        newsContent.push({
+          'type': 'separator'
+        });
+      }
     });
 
     const answer = {
-      "type": "bubble",
-      "styles": {
-        "header": {
-          "backgroundColor": "#fa1616"
+      'type': 'bubble',
+      'styles': {
+        'header': {
+          'backgroundColor': '#fa1616'
         }
       },
-      "header": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
+      'header': {
+        'type': 'box',
+        'layout': 'vertical',
+        'contents': [
           {
-            "type": "text",
-            "text": "Indonesia Headline News",
-            "align": "center",
-            "color": "#ffffff"
+            'type': 'text',
+            'text': 'Indonesia Headline News',
+            'align': 'center',
+            'color': '#ffffff'
           },
           {
-            "type": "separator"
+            'type': 'separator'
           }
         ]
       },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "spacing": "md",
-        "contents": newsContent
+      'body': {
+        'type': 'box',
+        'layout': 'vertical',
+        'spacing': 'md',
+        'contents': newsContent
       }
     };
 
     const message = {
-      "type": "flex",
-      "contents": answer
+      'type': 'flex',
+      'contents': answer
     };
 
     console.log(newsContent);
@@ -137,7 +136,7 @@ async function handleEvent(event) {
   }
 
   const echo = {
-    type: "text",
+    type: 'text',
     text: event.message.text
   };
 
