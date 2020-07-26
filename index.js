@@ -115,7 +115,7 @@ async function handleEvent(event) {
 
     const message = {
       "type": "flex",
-      "altText": "this is test",
+      "altText": "Indonesia Headline News",
       "contents": answer
     }
 
