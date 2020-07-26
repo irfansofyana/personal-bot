@@ -115,16 +115,16 @@ async function handleEvent(event) {
     };
 
     const message = {
-      type: 'flex',
-      contents: {
-        type: 'bubble',
-        body: {
-          type: 'box',
-          layout: 'vertical',
-          contents: [
+      "type": "flex",
+      "contents": {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
             {
-              type: 'text',
-              text: 'test doang'
+              "type": "text",
+              "text": "test doang"
             }
           ]
         }
