@@ -110,7 +110,31 @@ async function handleEvent(event) {
         "type": "box",
         "layout": "vertical",
         "spacing": "md",
-        "contents": newsContent
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Genoa Vs Inter Milan: Nerazzurri Menang 3-0 - detikSport",
+                "wrap": true
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "button",
+                "style": "link",
+                "action": {
+                  "type": "uri",
+                  "label": "Visit Link",
+                  "uri": "https://sport.detik.com/sepakbola/liga-italia/d-5108042/genoa-vs-inter-milan-nerazzurri-menang-3-0"
+                }
+              }
+            ]
+          }
+        ]
       }
     };
 
