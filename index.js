@@ -116,8 +116,22 @@ async function handleEvent(event) {
 
     const message = {
       type: 'flex',
-      contents: answer
+      contents: {
+        type: 'bubble',
+        body: {
+          type: 'box',
+          layout: 'vertical',
+          contents: [
+            {
+              type: 'text',
+              text: 'test doang'
+            }
+          ]
+        }
+      }
     };
+
+    console.log(message);
 
     return client.replyMessage(event.replyToken, message);
   }
