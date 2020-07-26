@@ -116,6 +116,7 @@ async function handleEvent(event) {
 
     const message = {
       "type": "flex",
+      "altText": "this is test",
       "contents": {
         "type": "bubble",
         "body": {
