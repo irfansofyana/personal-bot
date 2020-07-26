@@ -115,12 +115,9 @@ async function handleEvent(event) {
     };
 
     const message = {
-      'type': 'flex',
-      "altText": "This is a Flex Message",
-      'contents': answer
+      type: 'flex',
+      contents: answer
     };
-
-    console.log(newsContent);
 
     return client.replyMessage(event.replyToken, message);
   }
