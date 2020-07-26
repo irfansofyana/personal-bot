@@ -68,7 +68,7 @@ async function handleEvent(event) {
           {
             "type": "button",
             "style": "link",
-            "actions": {
+            "action": {
               "type": "uri",
               "label": "Visit Link",
               "uri": news.url
@@ -110,58 +110,15 @@ async function handleEvent(event) {
         "type": "box",
         "layout": "vertical",
         "spacing": "md",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Genoa Vs Inter Milan: Nerazzurri Menang 3-0 - detikSport",
-                "wrap": true
-              },
-              {
-                "type": "separator"
-              },
-              {
-                "type": "button",
-                "style": "link",
-                "action": {
-                  "type": "uri",
-                  "label": "Visit Link",
-                  "uri": "https://sport.detik.com/sepakbola/liga-italia/d-5108042/genoa-vs-inter-milan-nerazzurri-menang-3-0"
-                }
-              }
-            ]
-          }
-        ]
+        "contents": newsContent
       }
     };
 
-    // const message = {
-    //   "type": "flex",
-    //   "altText": "this is test",
-    //   "contents": {
-    //     "type": "bubble",
-    //     "body": {
-    //       "type": "box",
-    //       "layout": "vertical",
-    //       "contents": [
-    //         {
-    //           "type": "text",
-    //           "text": "test doang"
-    //         }
-    //       ]
-    //     }
-    //   }
-    // };
     const message = {
       "type": "flex",
       "altText": "this is test",
       "contents": answer
     }
-
-    console.log(message);
 
     return client.replyMessage(event.replyToken, message);
   }
@@ -174,6 +131,6 @@ async function handleEvent(event) {
   return client.replyMessage(event.replyToken, echo);
 }
 
-app.listen(cfg.PORT, () => {
+app.listen(cfg.PORT, async () => {
   console.log(`listening on ${cfg.PORT}`);
 });
