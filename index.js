@@ -47,72 +47,72 @@ async function handleEvent(event) {
   }
 
   if (event.message.text === '/news'){
-    // const res = await services.newsapi({
-    //   'country': 'ID'
-    // });
+    const res = await services.newsapi({
+      'country': 'ID'
+    });
     
-    // let newsContent = [];
-    // res.forEach((news, i) => {
-    //   let content = {
-    //     type: 'box',
-    //     layout: 'horizontal',
-    //     contents: [
-    //       {
-    //         type: 'text',
-    //         text: news.title,
-    //         wrap: true
-    //       },
-    //       {
-    //         type: 'separator'
-    //       },
-    //       {
-    //         type: 'button',
-    //         style: 'link',
-    //         actions: {
-    //           type: 'uri',
-    //           label: 'Visit Link',
-    //           uri: news.url
-    //         }
-    //       }
-    //     ]
-    //   };
-    //   newsContent.push(content);
-    //   if (i != res.length - 1) {
-    //     newsContent.push({
-    //       type: 'separator'
-    //     });
-    //   }
-    // });
+    let newsContent = [];
+    res.forEach((news, i) => {
+      let content = {
+        type: 'box',
+        layout: 'horizontal',
+        contents: [
+          {
+            type: 'text',
+            text: news.title,
+            wrap: true
+          },
+          {
+            type: 'separator'
+          },
+          {
+            type: 'button',
+            style: 'link',
+            actions: {
+              type: 'uri',
+              label: 'Visit Link',
+              uri: news.url
+            }
+          }
+        ]
+      };
+      newsContent.push(content);
+      if (i != res.length - 1) {
+        newsContent.push({
+          type: 'separator'
+        });
+      }
+    });
 
-    // const answer = {
-    //   type: 'bubble',
-    //   styles: {
-    //     header: {
-    //       'backgroundColor': '#fa1616'
-    //     }
-    //   },
-    //   header: {
-    //     type: 'box',
-    //     layout: 'vertical',
-    //     contents: [
-    //       {
-    //         type: 'text',
-    //         text: 'Indonesia Headline News',
-    //         align: 'center',
-    //         color: '#ffffff'
-    //       },
-    //       {
-    //         type: 'separator'
-    //       }
-    //     ]
-    //   },
-    //   body: {
-    //     type: 'box',
-    //     layout: 'vertical',
-    //     spacing: 'md',
-    //     contents: newsContent
-    //   }
-    // };
+    const answer = {
+      type: 'bubble',
+      styles: {
+        header: {
+          'backgroundColor': '#fa1616'
+        }
+      },
+      header: {
+        type: 'box',
+        layout: 'vertical',
+        contents: [
+          {
+            type: 'text',
+            text: 'Indonesia Headline News',
+            align: 'center',
+            color: '#ffffff'
+          },
+          {
+            type: 'separator'
+          }
+        ]
+      },
+      body: {
+        type: 'box',
+        layout: 'vertical',
+        spacing: 'md',
+        contents: newsContent
+      }
+    };
 
     const message = {
       "type": "flex",
