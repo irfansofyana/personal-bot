@@ -46,18 +46,7 @@ async function handleEvent(event) {
     return Promise.resolve(null);
   }
 
-  if (event.message.text == '/news'){
-    // let answer = 'Headline News for Indonesia:\n\n';
-    // const res = await services.newsapi({
-    //   'country': 'ID'
-    // });
-
-    // res.forEach((news) => {
-    //   const cvt = news.title + '\n' + news.url + '\n\n';
-    //   answer += cvt;
-    // });
-
-    // text = answer;
+  if (event.message.text === '/news'){
     const res = await services.newsapi({
       'country': 'ID'
     });
@@ -127,6 +116,7 @@ async function handleEvent(event) {
 
     const message = {
       'type': 'flex',
+      "altText": "This is a Flex Message",
       'contents': answer
     };
 
