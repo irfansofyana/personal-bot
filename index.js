@@ -3,7 +3,6 @@
 const line = require('@line/bot-sdk');
 const express = require('express');
 const cfg = require('./config');
-const { newsapi } = require('./services');
 const services = require('./services');
 
 const config = {
