@@ -94,6 +94,7 @@ async function handleEvent(event) {
       }
       newsContent.push(content);
     });
+
     const answer = {
       "type": "bubble",
       "styles": {
@@ -128,6 +129,8 @@ async function handleEvent(event) {
       "type": "flex",
       "contents": answer
     };
+
+    console.log(answer);
 
     return client.replyMessage(event.replyToken, message);
   }
