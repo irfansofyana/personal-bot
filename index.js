@@ -88,7 +88,7 @@ async function handleEvent(event) {
         ]
       };
       newsContent.push(content);
-      if (i != news.length - 1) {
+      if (i != res.length - 1) {
         newsContent.push({
           'type': 'separator'
         });
