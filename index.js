@@ -45,27 +45,96 @@ async function handleEvent(event) {
     return Promise.resolve(null);
   }
 
-  let echo = {};
-  let text = event.message.text;
-  let type = 'text';
+  if (event.message.text == '/news'){
+    // let answer = 'Headline News for Indonesia:\n\n';
+    // const res = await services.newsapi({
+    //   'country': 'ID'
+    // });
 
-  if (event.message.text == '/headlines'){
-    let answer = 'Headline News for Indonesia:\n\n';
+    // res.forEach((news) => {
+    //   const cvt = news.title + '\n' + news.url + '\n\n';
+    //   answer += cvt;
+    // });
+
+    // text = answer;
     const res = await services.newsapi({
       'country': 'ID'
     });
-
-    res.forEach((news) => {
-      const cvt = news.title + '\n' + news.url + '\n\n';
-      answer += cvt;
+    
+    let newsContent = [];
+    res.forEach((news, i) => {
+      let content = {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": news.title,
+            "wrap": true
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "actions": {
+              "type": "uri",
+              "label": "Visit Link",
+              "uri": news.url
+            }
+          }
+        ]
+      };
+      if (i != news.length - 1){
+        content = {
+          ...content,
+          "type": "separator"
+        };
+      }
+      newsContent.push(content);
     });
+    const answer = {
+      "type": "bubble",
+      "styles": {
+        "header": {
+          "backgroundColor": "#fa1616"
+        }
+      },
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Indonesia Headline News",
+            "align": "center",
+            "color": "#ffffff"
+          },
+          {
+            "type": "separator"
+          }
+        ]
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": newsContent
+      }
+    };
 
-    text = answer;
+    const message = {
+      "type": "flex",
+      "contents": answer
+    };
+
+    return client.replyMessage(event.replyToken, message);
   }
 
-  echo = {
-    type: type,
-    text: text
+  const echo = {
+    type: "text",
+    text: event.message.text
   };
 
   return client.replyMessage(event.replyToken, echo);
