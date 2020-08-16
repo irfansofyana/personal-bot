@@ -41,36 +41,43 @@ app.use((err, req, res, next) => {
   next(err);
 });
 
-// event handler
 async function handleEvent(event) {
   if (event.type !== 'message' || event.message.type !== 'text') {
     return Promise.resolve(null);
   }
 
+  let message = {};
   if (event.message.text === '/news'){
     const res = await services.newsapi({
       'country': 'ID'
     });
     
     const newsContent = generator.newsMessage(res);
-
     const answer = replyMessage.news(newsContent);
 
-    const message = {
+    message = {
       "type": "flex",
       "altText": "Indonesia Headline News",
       "contents": answer
     }
-
-    return client.replyMessage(event.replyToken, message);
+  } else if (event.message.text === '/commands') {
+    message = {
+      type: 'text',
+      text: replyMessage.commands()
+    };
+  } else if (event.message.text === '/whoareyou') {
+    message = {
+      type: 'text',
+      text: replyMessage.aboutMe()
+    };
+  } else {
+    message = {
+      type: 'text',
+      text: replyMessage.notUnderstand()
+    };
   }
 
-  const echo = {
-    type: 'text',
-    text: event.message.text
-  };
-
-  return client.replyMessage(event.replyToken, echo);
+  return client.replyMessage(event.replyToken, message);
 }
 
 app.listen(cfg.PORT, async () => {
