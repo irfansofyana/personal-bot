@@ -3,7 +3,7 @@ const news = (newsContent) => {
         "type": "bubble",
         "styles": {
           "header": {
-            "backgroundColor": "#fedc97"
+            "backgroundColor": "#006494"
           }
         },
         "header": {
@@ -14,7 +14,7 @@ const news = (newsContent) => {
               "type": "text",
               "text": "Indonesia Headline News",
               "align": "center",
-              "color": "#000000"
+              "color": "#ffffff"
             },
             {
               "type": "separator"
