@@ -4,6 +4,8 @@ const line = require('@line/bot-sdk');
 const express = require('express');
 const cfg = require('./config');
 const services = require('./services');
+const replyMessage = require('./static');
+const generator = require('./generator');
 
 const config = {
   channelAccessToken: cfg.CHANNEL_ACCESS_TOKEN,
@@ -50,68 +52,9 @@ async function handleEvent(event) {
       'country': 'ID'
     });
     
-    let newsContent = [];
-    res.forEach((news, i) => {
-      let content = {
-        "type": "box",
-        "layout": "horizontal",
-        "contents": [
-          {
-            "type": "text",
-            "text": news.title,
-            "wrap": true
-          },
-          {
-            "type": "separator"
-          },
-          {
-            "type": "button",
-            "style": "link",
-            "action": {
-              "type": "uri",
-              "label": "Visit Link",
-              "uri": news.url
-            }
-          }
-        ]
-      };
-      newsContent.push(content);
-      if (i != res.length - 1) {
-        newsContent.push({
-          "type": "separator"
-        });
-      }
-    });
+    const newsContent = generator.newsMessage(res);
 
-    const answer = {
-      "type": "bubble",
-      "styles": {
-        "header": {
-          "backgroundColor": "#fa1616"
-        }
-      },
-      "header": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "Indonesia Headline News",
-            "align": "center",
-            "color": "#ffffff"
-          },
-          {
-            "type": "separator"
-          }
-        ]
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "spacing": "md",
-        "contents": newsContent
-      }
-    };
+    const answer = replyMessage.news(newsContent);
 
     const message = {
       "type": "flex",
