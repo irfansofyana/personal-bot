@@ -35,7 +35,9 @@ const commands = () => {
     'Here are some commands that you can use:',
     '- /commands: show all commands that you can use with me',
     '- /news: show 5 random hot news in Indonesia',
-    '- /whoareyou: tell you who am I'
+    '- /whoareyou: tell you who am I',
+    '- /fact today: tell you about fact there is happen in the world',
+    '- /fact random: tell you one random fact there is happen in the world'
   ];
 
   return commandsVar.reduce((res, command) => {
