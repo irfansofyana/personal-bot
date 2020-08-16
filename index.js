@@ -70,6 +70,18 @@ async function handleEvent(event) {
       type: 'text',
       text: replyMessage.aboutMe()
     };
+  } else if (event.message.text === '/fact today') {
+    const fact = await services.randomFacts.todayFact();
+    message = {
+      type: 'text',
+      text: 'Here is one fact in the world today for you: ' + fact
+    };
+  } else if (event.message.text === '/fact random') {
+    const fact = await services.randomFacts.randomFact();
+    message = {
+      type: 'text',
+      text: 'One random fact in the world for you: ' + fact
+    };
   } else {
     message = {
       type: 'text',
