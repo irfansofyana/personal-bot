@@ -6,7 +6,7 @@ const todayFact = async () => {
         const url = config.RANDOM_FACT_BASE_URL.concat('today.json?language=en');
         const response = await axios.get(url);
 
-        console.log(response.text);
+        console.log(response, response.text);
         return response.text;
     } catch (err) {
         console.error(err);
