@@ -4,7 +4,7 @@ const generator = require('./generator');
 
 const textHandler = (client, token, command, args) => {
   let message = {};
-  if (firstCommand === '/news'){
+  if (command === '/news'){
     const res = await services.newsapi({
       'country': 'ID'
     });
@@ -17,26 +17,26 @@ const textHandler = (client, token, command, args) => {
       "altText": "Indonesia Headline News",
       "contents": answer
     };
-  } else if (firstCommand=== '/commands') {
+  } else if (command=== '/commands') {
     message = {
       type: 'text',
       text: replyMessage.commands()
     };
-  } else if (firstCommand=== '/whoareyou') {
+  } else if (command=== '/whoareyou') {
     message = {
       type: 'text',
       text: replyMessage.aboutMe()
     };
-  } else if (firstCommand === '/fact'){
+  } else if (command === '/fact'){
     let fact = '';
-    if (restCommand === 'today') {
+    if (args === 'today') {
       fact = await services.randomFacts.todayFact();
 
       message = {
         type: 'text',
         text: 'Here is one fact in the world today for you: ' + fact
       };
-    } else if (restCommand === 'random') {
+    } else if (args === 'random') {
       fact = await services.randomFacts.randomFact();
 
       message = {
@@ -49,9 +49,9 @@ const textHandler = (client, token, command, args) => {
         text: replyMessage.notUnderstand()
       };
     }
-  } else if (firstCommand === '/calc') {
-    const result = services.calculator(restCommand).toString();
-    const answer = replyMessage.calc(restCommand, result);
+  } else if (command === '/calc') {
+    const result = services.calculator(args).toString();
+    const answer = replyMessage.calc(args, result);
 
     message = {
       "type": "flex",
