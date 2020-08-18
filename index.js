@@ -44,10 +44,18 @@ async function handleEvent(event) {
     return Promise.resolve(null);
   }
 
-  const firstCommand = event.message.text.substring(0, event.message.text.indexOf(' '));
-  const restCommand = event.message.text.substring(event.message.text.indexOf(' '));
-
-  return handler.textHandler(client, event.replyToken, firstCommand, restCommand);
+  const inputTextMessage = event.message.text;
+ 
+  let firstArg = '';
+  let args = '';
+  if (inputTextMessage.indexOf(' ') > -1) {
+    firstArg = inputTextMessage.substring(0, inputTextMessage.indexOf(' '));
+    args = inputTextMessage.substring(inputTextMessage.indexOf(' '));
+  } else {
+    firstArg = inputTextMessage
+  }
+ 
+  return handler.textHandler(client, event.replyToken, firstArg, args);
 }
 
 app.listen(cfg.PORT, async () => {
