@@ -4,5 +4,6 @@ const randomFacts = require('./randomFacts');
 
 module.exports = {
   newsapi,
-  randomFacts
+  randomFacts,
+  calculator
 }

@@ -82,6 +82,12 @@ async function handleEvent(event) {
       type: 'text',
       text: 'One random fact in the world for you: ' + fact
     };
+  } else if (event.message.text.includes('/calc')) {
+    const result = services.calculator('12+12');
+    message = {
+      type: 'text',
+      text: result.toString()
+    };
   } else {
     message = {
       type: 'text',
