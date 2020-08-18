@@ -37,7 +37,8 @@ const commands = () => {
     '- /news: show 5 random hot news in Indonesia',
     '- /whoareyou: tell you who am I',
     '- /fact today: tell you about fact there is happen in the world',
-    '- /fact random: tell you one random fact there is happen in the world'
+    '- /fact random: tell you one random fact there is happen in the world',
+    '- /calc <expression>: compute given mathematics expression'
   ];
 
   return commandsVar.reduce((res, command) => {

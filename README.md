@@ -11,7 +11,7 @@
 
 
 
-Personal Bot is a line bot created by [irfansofyana](https://irfansofyana.com). This bot is created to be your daily assistant in your life.
+Personal Bot is a line bot created by [irfansofyana](https://irfansofyana.com). This bot is created to be your daily assistant in your life and do many fun things.
 
 
 ##  Commands
@@ -27,8 +27,10 @@ Here are the current commands that can use with this bot
 
 `/fact random`: Tell you about one random fact in the world
 
+`/calc <expression>`: Compute given mathematics expression
+
 ## Future Features
-- [ ] Scientific Calculator
+- [x] Scientific Calculator
 - [ ] Countdown Reminder
 - [ ] To do list
 - [ ] Integrated with google calendar
