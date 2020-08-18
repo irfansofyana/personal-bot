@@ -46,8 +46,10 @@ async function handleEvent(event) {
     return Promise.resolve(null);
   }
 
+  const commands = event.message.text.split(' ');
+
   let message = {};
-  if (event.message.text === '/news'){
+  if (commands[0] === '/news'){
     const res = await services.newsapi({
       'country': 'ID'
     });
@@ -60,30 +62,38 @@ async function handleEvent(event) {
       "altText": "Indonesia Headline News",
       "contents": answer
     }
-  } else if (event.message.text === '/commands') {
+  } else if (commands[0]=== '/commands') {
     message = {
       type: 'text',
       text: replyMessage.commands()
     };
-  } else if (event.message.text === '/whoareyou') {
+  } else if (commands[0]=== '/whoareyou') {
     message = {
       type: 'text',
       text: replyMessage.aboutMe()
     };
-  } else if (event.message.text === '/fact today') {
-    const fact = await services.randomFacts.todayFact();
-    message = {
-      type: 'text',
-      text: 'Here is one fact in the world today for you: ' + fact
-    };
-  } else if (event.message.text === '/fact random') {
-    const fact = await services.randomFacts.randomFact();
-    message = {
-      type: 'text',
-      text: 'One random fact in the world for you: ' + fact
-    };
-  } else if (event.message.text.includes('/calc')) {
-    const result = services.calculator('12+12');
+  } else if (commands[0] === '/fact'){
+    let fact = '';
+    if (commands[1] === '/today') {
+      fact = await services.randomFacts.todayFact();
+      message = {
+        type: 'text',
+        text: 'Here is one fact in the world today for you: ' + fact
+      };
+    } else if (commands[1] === '/random') {
+      fact = await services.randomFacts.randomFact();
+      message = {
+        type: 'text',
+        text: 'One random fact in the world for you: ' + fact
+      };
+    } else {
+      message = {
+        type: 'text',
+        text: replyMessage.notUnderstand()
+      };
+    }
+  } else if (commands[0] === '/calc') {
+    const result = services.calculator(commands[1]);
     message = {
       type: 'text',
       text: result.toString()
