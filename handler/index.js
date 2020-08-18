@@ -2,7 +2,7 @@ const services = require('./services');
 const replyMessage = require('./static');
 const generator = require('./generator');
 
-const textHandler = (client, token, command, args) => {
+const textHandler = async (client, token, command, args) => {
   let message = {};
   if (command === '/news'){
     const res = await services.newsapi({
@@ -17,12 +17,12 @@ const textHandler = (client, token, command, args) => {
       "altText": "Indonesia Headline News",
       "contents": answer
     };
-  } else if (command=== '/commands') {
+  } else if (command === '/commands') {
     message = {
       type: 'text',
       text: replyMessage.commands()
     };
-  } else if (command=== '/whoareyou') {
+  } else if (command === '/whoareyou') {
     message = {
       type: 'text',
       text: replyMessage.aboutMe()
