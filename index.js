@@ -76,12 +76,14 @@ async function handleEvent(event) {
     let fact = '';
     if (commands[1] === '/today') {
       fact = await services.randomFacts.todayFact();
+
       message = {
         type: 'text',
         text: 'Here is one fact in the world today for you: ' + fact
       };
     } else if (commands[1] === '/random') {
       fact = await services.randomFacts.randomFact();
+      
       message = {
         type: 'text',
         text: 'One random fact in the world for you: ' + fact
@@ -93,10 +95,13 @@ async function handleEvent(event) {
       };
     }
   } else if (commands[0] === '/calc') {
-    const result = services.calculator(commands[1]);
+    const result = services.calculator(commands[1]).toString();
+    const answer = replyMessage.calc(commands[1], result);
+
     message = {
-      type: 'text',
-      text: result.toString()
+      "type": "flex",
+      "altText": "calculator",
+      "contents": answer
     };
   } else {
     message = {

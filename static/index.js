@@ -55,9 +55,85 @@ const notUnderstand = () => {
   return "Sorry boss, I don't understand what you mean. You can check /commands to use me effectively";
 }
 
+const calc = (question, answer) => {
+  return {
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Calculator",
+          "align": "center",
+          "color": "#ffffff"
+        },
+        {
+          "type": "separator"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Question",
+              "align": "center",
+              "wrap": true
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "text",
+              "text": "Answer",
+              "align": "center",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "separator"
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "text",
+              "text": `${question}`,
+              "wrap": true
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "text",
+              "text": `${answer}`,
+              "wrap": true
+            }
+          ]
+        }
+      ]
+    },
+    "styles": {
+      "header": {
+        "backgroundColor": "#006494"
+      }
+    }
+  };
+}
+
 module.exports = {
   news,
   commands,
   aboutMe,
-  notUnderstand
+  notUnderstand,
+  calc
 };
