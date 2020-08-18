@@ -6,6 +6,10 @@ const textHandler = async (client, token, command, args) => {
   let message = {};
   if (command === '/news'){
     message = newsAPI.handler();
+  } else if (command === '/fact'){
+    message = randomFacts.handler();
+  } else if (command === '/calc') {
+    message = calculator.handler();
   } else if (command === '/commands') {
     message = {
       type: 'text',
@@ -16,10 +20,6 @@ const textHandler = async (client, token, command, args) => {
       type: 'text',
       text: replyMessage.aboutMe()
     };
-  } else if (command === '/fact'){
-    message = randomFacts.handler();
-  } else if (command === '/calc') {
-    message = calculator.handler();
   } else {
     message = {
       type: 'text',
