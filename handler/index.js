@@ -7,9 +7,9 @@ const textHandler = async (client, token, command, args) => {
   if (command === '/news'){
     message = newsAPI.handler();
   } else if (command === '/fact'){
-    message = randomFacts.handler();
+    message = randomFacts.handler(args);
   } else if (command === '/calc') {
-    message = calculator.handler();
+    message = calculator.handler(args);
   } else if (command === '/commands') {
     message = {
       type: 'text',
