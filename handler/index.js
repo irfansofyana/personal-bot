@@ -5,7 +5,7 @@ const replyMessage = require('../static');
 
 const textHandler = async (client, token, command, args) => {
   let message = {};
-  console.log('HEEEY', command);
+  
   if (command === '/news'){
     message = await newsAPI.handler();
   } else if (command === '/fact'){
