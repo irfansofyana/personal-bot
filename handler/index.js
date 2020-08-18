@@ -1,5 +1,5 @@
 const services = require('../services');
-const replyMessage = require('..static');
+const replyMessage = require('../static');
 const generator = require('../generator');
 
 const textHandler = async (client, token, command, args) => {
