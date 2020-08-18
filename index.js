@@ -74,16 +74,16 @@ async function handleEvent(event) {
     };
   } else if (commands[0] === '/fact'){
     let fact = '';
-    if (commands[1] === '/today') {
+    if (commands[1] === 'today') {
       fact = await services.randomFacts.todayFact();
 
       message = {
         type: 'text',
         text: 'Here is one fact in the world today for you: ' + fact
       };
-    } else if (commands[1] === '/random') {
+    } else if (commands[1] === 'random') {
       fact = await services.randomFacts.randomFact();
-      
+
       message = {
         type: 'text',
         text: 'One random fact in the world for you: ' + fact
