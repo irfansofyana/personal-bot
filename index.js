@@ -50,7 +50,7 @@ async function handleEvent(event) {
   let args = '';
   if (inputTextMessage.indexOf(' ') > -1) {
     firstArg = inputTextMessage.substring(0, inputTextMessage.indexOf(' '));
-    args = inputTextMessage.substring(inputTextMessage.indexOf(' '));
+    args = inputTextMessage.substring(inputTextMessage.indexOf(' ') + 1);
   } else {
     firstArg = inputTextMessage
   }

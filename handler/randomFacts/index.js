@@ -4,7 +4,7 @@ const generator = require('../../generator');
 
 const handler = async (args) => {
   let fact = '';
-  console.log('HUUY', args);
+  
   if (args === 'today') {
     fact = await services.randomFacts.todayFact();
 
