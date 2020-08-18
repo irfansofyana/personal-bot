@@ -8,7 +8,9 @@ const math = create(all, config);
 
 const calc = (expression) => {
     try {
+        console.log(expression, typeof expression);
         const result = math.evaluate(expression);
+        if (result === undefined) return 'undefined';
         if (typeof result === object) return result.toString();
 
         return result;
