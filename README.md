@@ -25,10 +25,10 @@ Here are the current commands that can use with this bot
 `/fact random`: Tell you about one random fact in the world
 
 ## Future Features
-- Scientific Calculator
-- Countdown Reminder
-- To do list
-- Integrated with google calendar
+- [ ] Scientific Calculator
+- [ ] Countdown Reminder
+- [ ] To do list
+- [ ] Integrated with google calendar
 
 ## Others
 
