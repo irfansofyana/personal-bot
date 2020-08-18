@@ -46,10 +46,11 @@ async function handleEvent(event) {
     return Promise.resolve(null);
   }
 
-  const commands = event.message.text.split(' ');
+  const firstCommand = event.message.text.substring(0, event.message.text.indexOf(' '));
+  const restCommand = event.message.text.substring(event.message.text.indexOf(' '));
 
   let message = {};
-  if (commands[0] === '/news'){
+  if (firstCommand === '/news'){
     const res = await services.newsapi({
       'country': 'ID'
     });
@@ -62,26 +63,26 @@ async function handleEvent(event) {
       "altText": "Indonesia Headline News",
       "contents": answer
     }
-  } else if (commands[0]=== '/commands') {
+  } else if (firstCommand=== '/commands') {
     message = {
       type: 'text',
       text: replyMessage.commands()
     };
-  } else if (commands[0]=== '/whoareyou') {
+  } else if (firstCommand=== '/whoareyou') {
     message = {
       type: 'text',
       text: replyMessage.aboutMe()
     };
-  } else if (commands[0] === '/fact'){
+  } else if (firstCommand === '/fact'){
     let fact = '';
-    if (commands[1] === 'today') {
+    if (restCommand === 'today') {
       fact = await services.randomFacts.todayFact();
 
       message = {
         type: 'text',
         text: 'Here is one fact in the world today for you: ' + fact
       };
-    } else if (commands[1] === 'random') {
+    } else if (restCommand === 'random') {
       fact = await services.randomFacts.randomFact();
 
       message = {
@@ -94,9 +95,9 @@ async function handleEvent(event) {
         text: replyMessage.notUnderstand()
       };
     }
-  } else if (commands[0] === '/calc') {
-    const result = services.calculator(commands[1]).toString();
-    const answer = replyMessage.calc(commands[1], result);
+  } else if (firstCommand === '/calc') {
+    const result = services.calculator(restCommand).toString();
+    const answer = replyMessage.calc(restCommand, result);
 
     message = {
       "type": "flex",
