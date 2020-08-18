@@ -5,10 +5,11 @@ const replyMessage = require('../static');
 
 const textHandler = async (client, token, command, args) => {
   let message = {};
+  console.log('HEEEY', command);
   if (command === '/news'){
-    message = newsAPI.handler();
+    message = await newsAPI.handler();
   } else if (command === '/fact'){
-    message = randomFacts.handler(args);
+    message = await randomFacts.handler(args);
   } else if (command === '/calc') {
     message = calculator.handler(args);
   } else if (command === '/commands') {
