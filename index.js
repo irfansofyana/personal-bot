@@ -6,6 +6,7 @@ const cfg = require('./config');
 const services = require('./services');
 const replyMessage = require('./static');
 const generator = require('./generator');
+const handler = require('./handler');
 
 const config = {
   channelAccessToken: cfg.CHANNEL_ACCESS_TOKEN,
@@ -49,69 +50,70 @@ async function handleEvent(event) {
   const firstCommand = event.message.text.substring(0, event.message.text.indexOf(' '));
   const restCommand = event.message.text.substring(event.message.text.indexOf(' '));
 
-  let message = {};
-  if (firstCommand === '/news'){
-    const res = await services.newsapi({
-      'country': 'ID'
-    });
+  return handler.textHandler(client, event.replyToken, firstCommand, restCommand);
+  // let message = {};
+  // if (firstCommand === '/news'){
+  //   const res = await services.newsapi({
+  //     'country': 'ID'
+  //   });
     
-    const newsContent = generator.newsMessage(res);
-    const answer = replyMessage.news(newsContent);
+  //   const newsContent = generator.newsMessage(res);
+  //   const answer = replyMessage.news(newsContent);
 
-    message = {
-      "type": "flex",
-      "altText": "Indonesia Headline News",
-      "contents": answer
-    }
-  } else if (firstCommand=== '/commands') {
-    message = {
-      type: 'text',
-      text: replyMessage.commands()
-    };
-  } else if (firstCommand=== '/whoareyou') {
-    message = {
-      type: 'text',
-      text: replyMessage.aboutMe()
-    };
-  } else if (firstCommand === '/fact'){
-    let fact = '';
-    if (restCommand === 'today') {
-      fact = await services.randomFacts.todayFact();
+  //   message = {
+  //     "type": "flex",
+  //     "altText": "Indonesia Headline News",
+  //     "contents": answer
+  //   }
+  // } else if (firstCommand=== '/commands') {
+  //   message = {
+  //     type: 'text',
+  //     text: replyMessage.commands()
+  //   };
+  // } else if (firstCommand=== '/whoareyou') {
+  //   message = {
+  //     type: 'text',
+  //     text: replyMessage.aboutMe()
+  //   };
+  // } else if (firstCommand === '/fact'){
+  //   let fact = '';
+  //   if (restCommand === 'today') {
+  //     fact = await services.randomFacts.todayFact();
 
-      message = {
-        type: 'text',
-        text: 'Here is one fact in the world today for you: ' + fact
-      };
-    } else if (restCommand === 'random') {
-      fact = await services.randomFacts.randomFact();
+  //     message = {
+  //       type: 'text',
+  //       text: 'Here is one fact in the world today for you: ' + fact
+  //     };
+  //   } else if (restCommand === 'random') {
+  //     fact = await services.randomFacts.randomFact();
 
-      message = {
-        type: 'text',
-        text: 'One random fact in the world for you: ' + fact
-      };
-    } else {
-      message = {
-        type: 'text',
-        text: replyMessage.notUnderstand()
-      };
-    }
-  } else if (firstCommand === '/calc') {
-    const result = services.calculator(restCommand).toString();
-    const answer = replyMessage.calc(restCommand, result);
+  //     message = {
+  //       type: 'text',
+  //       text: 'One random fact in the world for you: ' + fact
+  //     };
+  //   } else {
+  //     message = {
+  //       type: 'text',
+  //       text: replyMessage.notUnderstand()
+  //     };
+  //   }
+  // } else if (firstCommand === '/calc') {
+  //   const result = services.calculator(restCommand).toString();
+  //   const answer = replyMessage.calc(restCommand, result);
 
-    message = {
-      "type": "flex",
-      "altText": "calculator",
-      "contents": answer
-    };
-  } else {
-    message = {
-      type: 'text',
-      text: replyMessage.notUnderstand()
-    };
-  }
+  //   message = {
+  //     "type": "flex",
+  //     "altText": "calculator",
+  //     "contents": answer
+  //   };
+  // } else {
+  //   message = {
+  //     type: 'text',
+  //     text: replyMessage.notUnderstand()
+  //   };
+  // }
 
-  return client.replyMessage(event.replyToken, message);
+  // return client.replyMessage(event.replyToken, message);
 }
 
 app.listen(cfg.PORT, async () => {
