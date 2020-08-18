@@ -3,8 +3,12 @@
   <img width="400" height="300" src=resources/personal-bot-logo.png>
 </p>
 
+![GitHub top language](https://img.shields.io/github/languages/top/irfansofyana/personal-bot)
+[![npm version](https://badge.fury.io/js/%40line%2Fbot-sdk.svg)](https://badge.fury.io/js/%40line%2Fbot-sdk)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
+
 
 
 Personal Bot is a line bot created by [irfansofyana](https://irfansofyana.com). This bot is created to be your daily assistant in your life.
