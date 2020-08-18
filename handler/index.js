@@ -1,6 +1,7 @@
 const calculator = require('./calculator');
 const newsAPI = require('./newsAPI');
 const randomFacts = require('./randomFacts');
+const replyMessage = require('../static');
 
 const textHandler = async (client, token, command, args) => {
   let message = {};
