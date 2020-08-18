@@ -5,7 +5,6 @@
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
 
 
 Personal Bot is a line bot created by [irfansofyana](https://irfansofyana.com). This bot is created to be your daily assistant in your life.
@@ -42,3 +41,5 @@ You can add the personal bot as a friend by adding this [account](https://lin.ee
 ## Licence
 
 This application is under [MIT Licence](LICENSE)
+
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
